@@ -135,6 +135,8 @@ Once Tomcat is running, you can access your servlet by opening a web browser and
 I would like to thank the following individuals for their contributions to this project:
 
 - The team at Skill-Lync, for generously providing the data used in this project.
+- Reference : https://www.w3schools.com/java/
+              https://www.vogella.com/tutorials/ApacheTomcat/article.html
 
 
 
