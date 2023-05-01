@@ -101,8 +101,7 @@ Copy the WAR file to the Tomcat webapps directory. This directory is located ins
 
 Start Tomcat by running the startup.sh script on Linux/Unix or startup.bat on Windows. This script is located in the bin directory of the Tomcat installation.
 
-Once Tomcat is running, you can access your servlet by opening a web browser and navigating to the URL http://localhost:8080/<your-war-file-name>/<servlet-path>.
-</p><br>
+Once Tomcat is running, you can access your servlet by opening a web browser and navigating to the URL http://localhost:8080/<your-war-file-name>/<servlet-path>.</p>
 <h3>Homepage</h3><br>
  <img width=500px height=200px src="Homepage.png" alt="Project HomePage"> <br><br><br><br>
  <h3>SignupPage</h3><br>
@@ -119,8 +118,12 @@ Once Tomcat is running, you can access your servlet by opening a web browser and
 ## ⛏ Flow Chart <a name = "flowchart"></a>
 <p align="center">
   <a href="" rel="noopener">
+  
  <img width=500px height=200px src="flowchart.png" alt="Project Flowchart"></a>
 </p>
+
+
+![bg width:1000px](./Onlineshoppingflowchart.png)
 
 - [Mysql](https://www.mysql.com/) - Database
 - [Express](https://expressjs.com/) - Server Framework
