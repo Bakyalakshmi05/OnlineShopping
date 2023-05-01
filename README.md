@@ -1,4 +1,4 @@
-# OnlineShopping
+# DepartmentStore
 
 
 # Project-documentation
@@ -10,7 +10,7 @@
 
 
 <h3 align="center">OnlineShopping</h3>
-<p align="center"> Few lines describing your project.
+<p align="center">
     <br> 
 </p>
 
@@ -20,7 +20,6 @@
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Flow Chart](#flowchart)
-- [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
@@ -28,48 +27,89 @@
 The business-to consumer aspect of an online shopping is the most visible business use of the world wide web is a responsive DepartmentStore online shoppinp website. The technologies used in this project are HTML, CSS, Bootstrap and Vanilla JavaScript . There are a few important modules in the project like home page, Menulist, menuform, Product-image, cart page, wishlist page etc. The data is accessed using ajax call and then rendered into the webpage using dynamic html template created using string literals. For cart-page we are using localstorage to temporarily storing data before clicking on the checkout button. I took almost 40 - 50 hrs to complete this project. SkillLync helped me by providing the wire-frames for all relevant feature pages main feture
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+1. DepartmentStore the repository and navigate to the root directory.
+Getting started with Servlets in Tomcat involves the following general steps:
 
-### Prerequisites
+2. Install Tomcat: Download the latest version of Apache Tomcat from the official website and follow the installation instructions to install it on your system.
+
+3. Create a web application: Create a new directory for your web application and create a WEB-INF directory inside it. Inside the WEB-INF directory, create a web.xml file, which will contain the configuration for your application. Also, create a classes directory for your Java classes and a lib directory for your Java libraries.
+
+4. Create a Servlet: Create a new Java class that extends javax.servlet.http.HttpServlet. This class will implement the logic for your servlet. You can override methods such as doGet() and doPost() to handle HTTP requests.
+
+5. Compile and package the application: Compile your servlet class and any other Java classes you have created for your application. Package your compiled classes and any libraries you are using into a WAR file. Place the WAR file in the webapps directory of your Tomcat installation.
+
+6. Start Tomcat: Start Tomcat by running the startup.bat or startup.sh script in the bin directory of your Tomcat installation.
+
+7. Test your application: Open a web browser and navigate to http://localhost:8081/DepartmentStore/. 
+
+Overall, getting started with Servlets in Tomcat involves setting up a basic web application structure, creating a Servlet class, compiling and packaging the application, and deploying it to Tomcat. With these steps, you can create and deploy a simple Servlet-based web application.
+
+
+### <b>Prerequisites</b>
 What things you need to install the software and how to install them.
 
 we have install JEE servlet apacheTomcat 9,mysql,jsp,eclips
 
-### Installing
+### <b>Installing</b>
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+1. Download Tomcat: Go to the official Apache Tomcat website and download the latest version of Tomcat.
+    http://tomcat.apache.org/download-90.cgi
 
+2. Install Tomcat: Follow the instructions provided by the Tomcat website to install Tomcat on your system.
 
-And repeat
+3. Set up your development environment: Install a Java Development Kit (JDK) and an Integrated Development Environment (IDE) such as Eclipse or IntelliJ IDEA.
+     https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2023-03/R/eclipse-inst-jre-win64.exe
 
-until finished
+4. Create a new web application: In your IDE, create a new dynamic web project and set up the web application directory structure.
 
-End with an example of getting some data out of the system or using it for a little demo.
+5. Create a Servlet: Create a new Servlet class that extends javax.servlet.http.HttpServlet.
 
-## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
+6. Configure the Servlet: In the web.xml file, configure the Servlet by mapping its URL pattern to a specific URL path.
 
-### Break down into end to end tests
-Explain what these tests test and why
+7. Compile the Servlet: Compile the Servlet class using the javac command or by using the build tool of your choice.
 
-Give an example
+8. Package the web application: Package the compiled Servlet class and any other web resources into a WAR (Web Application Archive) file.
 
-<<<<<<< HEAD
+9. 
+Test the Servlet: Open a web browser and navigate to the URL that you mapped your Servlet to in the web.xml file. You should see the response generated by your Servlet.
 
+These are the basic steps for installing and setting up a Servlet in Tomcat. Once you have completed these steps, you can further customize your Servlet-based web application by adding additional Servlets, JSP pages, and other web resources.
 
-=======
->>>>>>> ccb3ef98e38119bc8d4d95dd9750ea018ced0479
 ## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
+Servlets are Java classes that are used to extend the functionality of web servers such as Tomcat. They are typically used to create dynamic web content, such as generating HTML pages on the fly or processing user input from web forms.
+
+Here are some examples of how servlets can be used in Tomcat:
+
+1. Handling HTTP requests: Servlets can be used to process incoming HTTP requests from web clients, such as web browsers or mobile devices. They can extract information from the request, such as headers and parameters, and generate a response that is sent back to the client.
+
+2. Generating dynamic content: Servlets can generate dynamic content in response to user requests. For example, a servlet can retrieve data from a database, process it, and generate an HTML page that is sent back to the client.
+
+3. Processing form data: Servlets can handle form data submitted by users. They can extract the form data from the request and process it, for example by storing it in a database or sending it as an email.
+
+4. Managing user sessions: Servlets can manage user sessions, which allow web applications to keep track of user activity across multiple requests. Servlets can create, retrieve, and update session data, and can also set session timeouts and invalidate sessions.
+
+To use a servlet in Tomcat, you first need to create a Java class that extends the javax.servlet.http.HttpServlet class, and override one or more of its methods, such as doGet() or doPost(), to handle HTTP requests. You then need to package the servlet class in a WAR (Web Application Archive) file, which can be deployed to Tomcat using its web administration interface or by copying the WAR file to the Tomcat webapps directory. Once the WAR file is deployed, the servlet can be accessed using a URL that corresponds to the servlet's mapping in the web application's deployment descriptor (web.xml).
 
 ## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+<h3>Homepage</h3><br>
+ <img width=500px height=200px src="Homepage.png" alt="Project HomePage"> <br><br><br><br>
+ <h3>SignupPage</h3><br>
+ <img width=500px height=200px src="signup.png" alt="Project SignupPage"><br><br><br><br>
+ <h3>MenuPage</h3><br>
+ <img width=500px height=200px src="menu.png" alt="Project MenuPage"> <br><br><br><br>
+ <h3>OrderPage</h3><br>
+ <img width=500px height=200px src="order.png" alt="Project OrderPage"><br><br><br><br>
+ <h3>Delivery Address Page</h3><br>
+  <img width=500px height=200px src="address.png" alt="Project Delivery Address Page"><br><br><br><br>
+  <h3>ThankYouPage</h3><br>
+   <img width=500px height=200px src="thank.png" alt="Project ThankYouPage">
 
 ## ⛏ Flow Chart <a name = "flowchart"></a>
 <p align="center">
   <a href="" rel="noopener">
- <img width=500px height=200px src="Homepage.png" alt="Project HomePage"></a>
+ <img width=500px height=200px src="flowchart.png" alt="Project Flowchart"></a>
 </p>
 
 
@@ -83,12 +123,11 @@ Add additional notes about how to deploy this on a live system.
 ## ✍️ Authors <a name = "authors"></a>
 - [@SkillLync](https://github.com/kylelobo) - FSD
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+
+I would like to thank the following individuals for their contributions to this project:
+
+- The team at Skill-Lync, for generously providing the data used in this project.
 
 
 
