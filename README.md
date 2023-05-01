@@ -122,9 +122,6 @@ Once Tomcat is running, you can access your servlet by opening a web browser and
  <img width=500px height=200px src="flowchart.png" alt="Project Flowchart"></a>
 </p>
 
-
-![bg width:1000px](./Onlineshoppingflowchart.png)
-
 - [Mysql](https://www.mysql.com/) - Database
 - [Express](https://expressjs.com/) - Server Framework
 - [VueJs](https://vuejs.org/) - Web Framework
