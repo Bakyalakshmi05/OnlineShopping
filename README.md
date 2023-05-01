@@ -93,6 +93,16 @@ Here are some examples of how servlets can be used in Tomcat:
 To use a servlet in Tomcat, you first need to create a Java class that extends the javax.servlet.http.HttpServlet class, and override one or more of its methods, such as doGet() or doPost(), to handle HTTP requests. You then need to package the servlet class in a WAR (Web Application Archive) file, which can be deployed to Tomcat using its web administration interface or by copying the WAR file to the Tomcat webapps directory. Once the WAR file is deployed, the servlet can be accessed using a URL that corresponds to the servlet's mapping in the web application's deployment descriptor (web.xml).
 
 ## 🚀 Deployment <a name = "deployment"></a>
+<p>To deploy a servlet on Apache Tomcat, you can follow these general steps:
+
+Build your servlet and create a WAR (Web Application Archive) file. A WAR file is a standard format for packaging web application files, including servlets, JSP files, HTML files, and other resources.
+
+Copy the WAR file to the Tomcat webapps directory. This directory is located inside the Tomcat installation directory.
+
+Start Tomcat by running the startup.sh script on Linux/Unix or startup.bat on Windows. This script is located in the bin directory of the Tomcat installation.
+
+Once Tomcat is running, you can access your servlet by opening a web browser and navigating to the URL http://localhost:8080/<your-war-file-name>/<servlet-path>.
+</p><br>
 <h3>Homepage</h3><br>
  <img width=500px height=200px src="Homepage.png" alt="Project HomePage"> <br><br><br><br>
  <h3>SignupPage</h3><br>
